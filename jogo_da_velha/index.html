@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Jogo da velha/title>
+	<title>Jogo da velha</title>
 
 	<script  src="https://code.jquery.com/jquery-2.2.4.js"
   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
@@ -24,6 +24,80 @@
 
 
 <body>
+
+	<div id="pagina_inicial" align="center">
+		<table width="600px;">
+			<tbody>
+				<tr>
+					<td colspan="3" align="center">
+						JOGO DA VELHA
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<img src="imagens/jogador_1.png">
+						<br>
+						<input type="text" maxlength="10" placeholder="Apelido do Jogador 1">
+					</td>
+
+					<td align="center"><img src="imagens/iniciar.png"></td>
+
+					<td align="center"><img src="imagens/jogador_2.png"> <br>
+						<input type="text" maxlength="10" placeholder="Apelido do Jogador 2">
+					</td>
+									</tr>
+			</tbody>
+		</table>
+		
+	</div>
+
+	<div id="palco_jogo" style="margin-top: 50px; text-align: center;">
+
+		<div style="display: inline-block;">
+			<img src="imagens/jogador_1.png"/>
+		</div> 
+
+		<div style="display: inline-block;">
+			<table border="0px">
+				<tr>
+					<td style="border-bottom: 1px solid red; border-right: 1px solid red;"> 
+						<div style=" width: 100px; height: 100px"></div>
+					</td>
+					<td style="border-bottom: 1px solid red; border-right: 1px solid red;>
+						<div style=" width: 100px; height: 100px"></div>
+					</td>
+					<td style="border-bottom: 1px solid red;">
+						<div style=" width: 100px; height: 100px"></div>
+					</td>
+
+				</tr>
+
+				<tr>
+					<td style="border-bottom: 1px solid red; border-right: 1px solid red;>
+						<div style=" width: 100px; height: 100px"></div></td>
+					<td style="border-bottom: 1px solid red; border-right: 1px solid red;>
+						<div style=" width: 100px; height: 100px"></div></td>
+					<td style="border-bottom: 1px solid red;">
+						<div style=" width: 100px; height: 100px"></div></td>
+					
+				</tr>
+
+				<tr>
+					<td style="border-right: 1px solid red;>
+						<div style=" width: 100px; height: 100px"></div></td>
+					<td style="border-right: 1px solid red;">
+						<div style=" width: 100px; height: 100px"></div></td>
+					<td><div style=" width: 100px; height: 100px"></div></td>
+					
+				</tr>
+			</table>
+		</div>
+
+		<div style="display: inline-block;">
+			<img src="imagens/jogador_2.png"/>
+		</div>
+		
+	</div>
 
 
 </body>
